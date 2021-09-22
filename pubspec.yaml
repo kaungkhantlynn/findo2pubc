@@ -1,0 +1,90 @@
+name: o2findermyanmar
+description: All Oxygen in One Link.
+
+version: 1.0.2+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_bloc: ^7.0.1
+  intl: ^0.17.0
+  hexcolor: ^2.0.4
+  responsive_framework: ^0.1.4
+  line_icons: ^2.0.1
+  flutter_svg: ^0.22.0
+  provider: ^5.0.0
+  flutter_secure_storage: ^4.2.0
+  shared_preferences: ^2.0.6
+  pull_to_refresh: ^2.0.0
+  fluttertoast: ^8.0.7
+  logger: ^1.0.0
+  pretty_dio_logger: ^1.1.1
+  dio: ^4.0.0
+  random_color: ^1.0.5
+  select_dialog: ^2.0.0
+  easy_rich_text: ^0.5.7
+  colorize_text_avatar: ^1.0.2
+  flutter_text_drawable: ^1.0.0
+  cupertino_icons: ^1.0.3
+  url_launcher: ^6.0.9
+  pubspec_data: ^1.0.0+2
+  cool_alert: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/background.png
+    - assets/images/oxygen.jpeg
+    - assets/images/team.png
+    - assets/json/oxygen_duration.json
+    - assets/images/time.png
+
+  fonts:
+    - family: Digital
+      fonts:
+        - asset: assets/fonts/digital.ttf
+    - family: MyanmarChatu
+      fonts:
+        - asset: assets/fonts/MyanmarChatu.ttf
+    - family: MyanmarHeadOne
+      fonts:
+        - asset: assets/fonts/MyanmarHeadOne.ttf
+    - family: MyanmarSansPro
+      fonts:
+        - asset: assets/fonts/MyanmarSansPro.ttf
+    - family: OdibeeSans
+      fonts:
+        - asset: assets/fonts/OdibeeSans.ttf
+    - family: Pyidaungsu
+      fonts:
+        - asset: assets/fonts/Pyidaungsu.ttf
+    - family: RobotoBold
+      fonts:
+        - asset: assets/fonts/RobotoBold.ttf
+    - family: RobotoRegular
+      fonts:
+        - asset: assets/fonts/RobotoRegular.ttf
+    - family: Oswald
+      fonts:
+        - asset: assets/fonts/Oswald.ttf    
+    - family: RobotoCondensed
+      fonts:
+        - asset: assets/fonts/RobotoCondensedRegular.ttf
+    - family: ZenLoopRegular
+      fonts:
+        - asset: assets/fonts/ZenLoopRegular.ttf
+    - family: MyanmarNjaun
+      fonts:
+        - asset: assets/fonts/MyanmarNjaun.ttf
+
+
